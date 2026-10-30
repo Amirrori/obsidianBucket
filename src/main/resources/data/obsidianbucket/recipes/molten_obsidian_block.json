@@ -7,11 +7,11 @@
   ],
   "key": {
     "M": {
-      "item": "wynnu:molten_obsidian"
+      "item": "obsidianbucket:molten_obsidian"
     }
   },
   "result": {
-    "item": "wynnu:molten_obsidian_block",
+    "item": "obsidianbucket:molten_obsidian_block",
     "count": 1
   }
 }

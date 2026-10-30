@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "wynnu:molten_obsidian_block"
+          "name": "obsidianbucket:molten_obsidian_block"
         }
       ],
       "rolls": 1.0

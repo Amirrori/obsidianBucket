@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wynnu:block/molten_obsidian_block"
-  }
-}
-

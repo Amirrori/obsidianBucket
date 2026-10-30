@@ -1,34 +1,31 @@
 {
   "schemaVersion": 1,
   "id": "obsidianbucket",
-  "version": "1.0",
+  "version": "${version}",
 
-  "name": "obsidianBucket",
-  "description": "Wynnu's useless obsidian bucket!",
+  "name": "Obsidian Bucket",
+  "description": "A mostly useless obsidian bucket, plus Molten Obsidian and a glowing Molten Obsidian Block.",
   "authors": [
-    "wynnu"
+    "Amirrori"
   ],
   "contact": {
-    "repo": "https://github.com/mamiri263/obsidianBucket"
+    "sources": "https://github.com/Amirrori/obsidianBucket",
+    "issues": "https://github.com/Amirrori/obsidianBucket/issues"
   },
 
-  "license": "All-Rights-Reserved",
-  "icon": "assets/wynnu/obsidian_bucket.png",
+  "license": "MIT",
+  "icon": "assets/obsidianbucket/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.mamiri263.obsidianbucket.client.ObsidianBucketClient"
-    ],
     "main": [
-      "com.mamiri263.obsidianbucket.ObsidianBucket"
+      "com.amirrori.obsidianbucket.ObsidianBucket"
     ]
   },
 
-
   "depends": {
-    "fabricloader": ">=0.14.22",
-        "fabric": "*",
-    "minecraft": "1.20.1"
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
   }
 }

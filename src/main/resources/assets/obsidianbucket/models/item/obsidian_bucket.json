@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wynnu:item/obsidian_bucket"
+    "layer0": "obsidianbucket:item/obsidian_bucket"
   }
 }
